@@ -1,31 +1,26 @@
 ### Merhaba 👋
 
-Windows için **küçük, dürüst araçlar** yazıyorum. Büyük iddialar yerine ne yaptığını
-gösteren, ne yapamadığını saklamayan yazılımlar.
+Windows için **küçük, dürüst araçlar** ve bağımsız oyun projeleri geliştiriyorum. Büyük iddialar yerine ne yaptığını gösteren, ne yapamadığını saklamayan işler.
 
 ---
 
-#### 🔧 Şu an üzerinde çalıştığım
+#### 🔧 Projeler
 
-**[Sentinel](https://github.com/payidaramelles-sys/sentinel-av)** — hafif, açık kaynak Windows antivirüsü.
+**[Sentinel](https://github.com/payidaramelles-sys/sentinel-av)** — Windows için açık kaynaklı, Defender'ın yanında çalışan bir tarama ve izleme katmanı. İndirilenler ve `%TEMP%` izleme, olay günlüğü ve şifreli karantina sunar; dosyaların çalışmasını önlemez ve Defender'ın yerini almaz.
 
-Defender'ın yerini almaya çalışmıyor; onun yanında ikinci bir göz olarak çalışıyor.
-İndirilenler ve `%TEMP%` izlenir, şüpheli dosyalar AES-256-GCM ile şifreli karantinaya
-alınır, her olay günlüğe yazılır.
+[![Sentinel](https://img.shields.io/badge/Sentinel-v1.0.0-C9A227?style=flat-square)](https://github.com/payidaramelles-sys/sentinel-av/releases/latest) [![Lisans](https://img.shields.io/badge/lisans-MIT-blue?style=flat-square)](https://github.com/payidaramelles-sys/sentinel-av/blob/main/LICENSE)
 
-Farkı **yanlış pozitif felsefesi**: varsayılan mod hiçbir şeyi silmez, sadece kaydeder.
-Bir–iki hafta izleyip kararını kendin verirsin.
+**[Karanlık Taht](https://github.com/payidaramelles-sys/karanlik-taht)** — Tarayıcıda oynanan çok oyunculu RPG projesinin tanıtım sayfası ve ekran görüntüleri. [Oyunu aç](https://taht.mehmetacar.org).
 
-[![Sentinel](https://img.shields.io/badge/Sentinel-v1.0.0-C9A227?style=flat-square)](https://github.com/payidaramelles-sys/sentinel-av/releases/latest)
-[![Lisans](https://img.shields.io/badge/lisans-MIT-blue?style=flat-square)](https://github.com/payidaramelles-sys/sentinel-av/blob/main/LICENSE)
+**[BonkMentor](https://github.com/payidaramelles-sys/BonkMentor)** — Megabonk için seçim danışmanı. Derlenmiş mod paketi dağıtılır; kaynak kodu yayımlanmamıştır.
 
 ---
 
 #### 💭 Önemsediklerim
 
-- **Dürüstlük ölçülebilir olmalı.** README'de "ne yapmaz" bölümü, "ne yapar" kadar önemli.
+- **Dürüstlük ölçülebilir olmalı.** “Ne yapmaz” bölümü, “ne yapar” kadar önemli.
 - **Varsayılan ayar güvenli olmalı.** Kullanıcı bir şey silinmeden önce görmeli.
-- **Tek kişilik projeler de ciddi olabilir** — test, CI, lisans, güvenlik politikası dahil.
+- **Tek kişilik projeler de ciddi olabilir** — test, CI, lisans ve güvenlik politikası dahil.
 
 ---
 
@@ -43,6 +38,6 @@ Bir–iki hafta izleyip kararını kendin verirsin.
 
 - 🌐 [mehmetacar.org](https://mehmetacar.org)
 - 🐞 Hata bildirimi ve öneriler: ilgili deponun **Issues** sekmesi
-- 🔐 Güvenlik açığı: herkese açık issue açmayın, depodaki `SECURITY.md` yolunu izleyin
+- 🔐 Sentinel güvenlik açığı: herkese açık issue açmayın; depodaki `SECURITY.md` yolunu izleyin
 
 <sub>Türkçe · English is fine too.</sub>
