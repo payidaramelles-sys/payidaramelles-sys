@@ -1,53 +1,54 @@
-### Merhaba 👋
+### Hi 👋
 
-**Fedora Linux** üzerinde geliştiriyorum: küçük, dürüst araçlar ve bağımsız oyun projeleri. Büyük iddialar yerine ne yaptığını gösteren, ne yapamadığını saklamayan işler.
+**English** · [Türkçe](README.tr.md)
 
----
-
-#### 🔧 Projeler
-
-**[Sentinel](https://github.com/payidaramelles-sys/sentinel-av)** — Windows'ta Defender'ın yanında çalışan açık kaynaklı bir tarama ve izleme katmanı. İndirilenler ve `%TEMP%` izleme, olay günlüğü ve şifreli karantina sunar; dosyaların çalışmasını önlemez ve Defender'ın yerini almaz. (Windows hedefli; geliştirmesi Linux'ta yapılıyor.)
-
-[![Sentinel](https://img.shields.io/badge/Sentinel-v1.0.0-C9A227?style=flat-square)](https://github.com/payidaramelles-sys/sentinel-av/releases/latest) [![Lisans](https://img.shields.io/badge/lisans-MIT-blue?style=flat-square)](https://github.com/payidaramelles-sys/sentinel-av/blob/main/LICENSE)
-
-**[Karanlık Taht](https://github.com/payidaramelles-sys/karanlik-taht)** — Tarayıcıda oynanan çok oyunculu RPG projesinin tanıtım sayfası ve ekran görüntüleri. [Oyunu aç](https://taht.mehmetacar.org).
-
-**[BonkMentor](https://github.com/payidaramelles-sys/BonkMentor)** — Megabonk için seçim danışmanı. Derlenmiş mod paketi dağıtılır; kaynak kodu yayımlanmamıştır.
-
-**[Sundered Türkçe Yama](https://github.com/payidaramelles-sys/sundered-turkce-yama)** — Sundered: Eldritch Edition için topluluk çevirisi; menü, hikâye, yetenek ağacı ve DLC metinleri Türkçe.
+I build small, honest open-source tools for **Windows** and **Linux**, plus independent game projects. No hype — just tools that clearly state what they do and what they cannot do.
 
 ---
 
-#### 🐧 Günlük ortamım
+#### 🔧 Open-Source Tools
 
-Fedora Linux Workstation · GNOME · Wayland · Flatpak · Proton ve Wine ile oyun · bash ve Python ile otomasyon.
+| Project | Platform | Summary |
+|---|---|---|
+| **[Sentinel](https://github.com/payidaramelles-sys/sentinel-av)** | Windows (.NET 8) | Lightweight companion scanning & monitoring layer alongside Windows Defender (Downloads/`%TEMP%` watcher, DPAPI encrypted quarantine, YARA-X/ClamAV, AppLocker trust helper). |
+| **[win-port-audit](https://github.com/payidaramelles-sys/win-port-audit)** | Windows (PowerShell) | Zero-dependency, read-only CLI to audit listening TCP/UDP ports, verify Authenticode signatures, and flag external unsigned or temp-path listeners. |
+| **[win-startup-audit](https://github.com/payidaramelles-sys/win-startup-audit)** | Windows (PowerShell) | Zero-dependency, read-only auditor for Run/RunOnce keys, Startup folders, and non-Microsoft Scheduled Tasks with Authenticode & missing-binary checks. |
+| **[Hafif TV](https://github.com/payidaramelles-sys/hafif-tv-launcher)** | Android TV (Java) | Single-Activity, zero-dependency launcher for 950 MB RAM projectors (382 KB APK, 30 MB PSS, 629 ms cold start). |
+| **[xbox-bt-fedora](https://github.com/payidaramelles-sys/xbox-bt-fedora)** | Linux / Fedora | Single udev rule fixing Steam Input and rumble for Bluetooth Xbox controllers on Linux. |
+| **[steam-ntfs-library](https://github.com/payidaramelles-sys/steam-ntfs-library)** | Linux / Steam | Helper scripts to share an NTFS Steam library on Linux without breaking Proton `compatdata`. |
+
+#### 🎮 Game & Community Projects
+
+- **[Karanlık Taht](https://github.com/payidaramelles-sys/karanlik-taht)** — Browser-based multiplayer RPG showcase ([play](https://taht.mehmetacar.org)).
+- **[BonkMentor](https://github.com/payidaramelles-sys/BonkMentor)** — Upgrade & item advisor mod for Megabonk (compiled release package).
 
 ---
 
-#### 💭 Önemsediklerim
+#### 💭 Principles
 
-- **Dürüstlük ölçülebilir olmalı.** “Ne yapmaz” bölümü, “ne yapar” kadar önemli.
-- **Varsayılan ayar güvenli olmalı.** Kullanıcı bir şey silinmeden önce görmeli.
-- **Tek kişilik projeler de ciddi olabilir** — test, CI, lisans ve güvenlik politikası dahil.
+- **Honesty should be measurable.** The *"What it does NOT do"* section matters just as much as *"What it does"*.
+- **Safe defaults first.** Read-only or `dry-run` by default — show the user before changing or deleting anything.
+- **Solo projects deserve real engineering** — tests, CI, clear licenses, and security policies included.
 
 ---
 
-#### 🛠 Kullandıklarım
+#### 🛠 Stack
 
-![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=flat-square&logo=fedora&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET%208-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![.NET 8](https://img.shields.io/badge/.NET%208-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=flat-square&logo=fedora&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-#### 📬 İletişim
+#### 📬 Contact
 
 - 🌐 [mehmetacar.org](https://mehmetacar.org)
-- 🐞 Hata bildirimi ve öneriler: ilgili deponun **Issues** sekmesi
-- 🔐 Sentinel güvenlik açığı: herkese açık issue açmayın; depodaki `SECURITY.md` yolunu izleyin
+- 🐞 Bug reports & suggestions: **Issues** tab in the relevant repository
+- 🔐 Security reports for Sentinel: please follow `SECURITY.md` instead of opening a public issue
 
-<sub>Türkçe · English is fine too.</sub>
+<sub>English · Türkçe de yazabilirsiniz.</sub>
